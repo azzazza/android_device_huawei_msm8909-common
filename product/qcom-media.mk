@@ -26,3 +26,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Compatibility
 PRODUCT_PACKAGES += \
     libboringssl-compat
+
+# Storage
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sys.sdcardfs=true
