@@ -1,0 +1,1 @@
+TARGET_RELEASETOOLS_EXTENSIONS := device/huawei/msm8909-common

@@ -12,8 +12,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
 
-PLATFORM_PATH := device/huawei/msm8909-common
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Include board config fragments
-include $(PLATFORM_PATH)/board/*.mk
+# Include package config fragments
+include $(LOCAL_PATH)/product/*.mk
